@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "487642509514",
+    "firebase_url": "https://akillisistemler-5d444.firebaseio.com",
+    "project_id": "akillisistemler-5d444",
+    "storage_bucket": "akillisistemler-5d444.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487642509514:android:363e067db33680170a4433",
+        "android_client_info": {
+          "package_name": "com.gokhan.akillisistem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487642509514-fqce250i3sv7k7r036p3pujjmrteorej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gokhan.akillisistem",
+            "certificate_hash": "dd5de732dcc2f2ad8563f3938093ea2d5d7dc889"
+          }
+        },
+        {
+          "client_id": "487642509514-v3t4hdbdsrikrfqin4gc5jes8o5naijs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCP4rdsqejWfKNva8WavT0RuE6CO-_9zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487642509514-v3t4hdbdsrikrfqin4gc5jes8o5naijs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

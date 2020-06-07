@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gokhan.akillisistem">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UyeIslemleri.ToplantiGoruntule"></activity>
+        <activity android:name=".UyeIslemleri.uyeMesajGoruntule" />
+        <activity android:name=".AdminPaneli.MesajCevap" />
+        <activity android:name=".AdminPaneli.GrafikAnaEkran" />
+        <activity android:name=".AdminPaneli.GrafikIslem" />
+        <activity android:name=".UyeIslemleri.BarkodOkuma" />
+        <activity android:name=".UyeIslemleri.GorevListele" />
+        <activity android:name=".AdminPaneli.MesajGoruntule" />
+        <activity android:name=".UyeIslemleri.MesajYolla" />
+        <activity android:name=".AdminPaneli.GorevListesi" />
+        <activity android:name=".AdminPaneli.GorevOlustur" />
+        <activity android:name=".UyeIslemleri.ProfilGoruntule" />
+        <activity android:name=".AdminPaneli.ToplantiOlustur" />
+        <activity android:name=".AdminPaneli.UyeListele" />
+        <activity android:name=".AdminPaneli.AdminEkipOlustur" />
+        <activity android:name=".UyeMain" />
+        <activity android:name=".UyeEkle" />
+        <activity android:name=".AdminMain" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

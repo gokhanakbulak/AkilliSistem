@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear"
+    android:orientation="horizontal"
+    android:weightSum="7"
+    >
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/id_txt"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="NAME"
+        android:id="@+id/name_txt"/>
+
+    <TextView
+        android:id="@+id/lname_txt"
+        android:layout_width="0dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:text="LAST NAME"
+        android:textSize="12dp" />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/email_txt"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textSize="12dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Ekip"
+        android:id="@+id/ekip_txt"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textSize="12dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Puan"
+        android:id="@+id/puan_txt"/>
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="SİL"
+        android:textSize="12dp"
+        android:id="@+id/sil_btn"
+        />
+
+
+
+
+</LinearLayout>
+
+</RelativeLayout>
